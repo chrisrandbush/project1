@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+    <header class="fullPage">
+        <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-white" id="largerText" href="index.html">Beer <span class="enhance">Here</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="https://image.flaticon.com/icons/svg/2533/2533878.svg"
+                            width="36" height="36" alt="Mounted wall Sign" title="Mounted wall sign"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-black" id="largeText" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" id="largeText" href="find.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" id="largeText" href="contact.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+
+        <div class="container-fluid justify-content-center mt-5">
+            <div id="gameTime" class="col-lg-auto">
+                <div class="row mx-auto justify-content-center" id="sportsBar"></div>
+            </div>
+        </div>
+
+        <section class="searchOption">
+            <article class="container">
+                <div class="col-12">
+                    <h1 class="display-4">Brewery Search!</h1>
+                    <p class="lead">Type in the name of the city you wish you find a brewery in city</p>
+                    <hr class="my-4">
+                    <!-- Basic form to enter city -->
+                    <form id="city-form">
+                        <!-- Label for Text Box -->
+                        <label for="city-input">Enter City Name</label>
+                        <!-- Text Input Box -->
+                        <input type="text" id="city-input"><br>
+                        <!-- Submit Button -->
+                        <input id="select-city" type="submit" value="Find Breweries!">
+                    </form>
+                </div>
+            </article>
+        </section>
+    </header>
+    <section class="infoSection">
+        <!-- Output div -->
+        <div id="marginB" class="container">
+            <div class="row">
+
+                <div class="col-12" id="outputInfo">
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="page-footer font-small position-fixed" style="height: 40px;">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="contact.html"> BrewBro's, Inc.</a>
+        </div>
+    </footer>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+<script src="script.js" async defer></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</body>
+
+</html>

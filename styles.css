@@ -1,0 +1,273 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('images/heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#largeHeader {
+    font-size: 6em;
+}
+
+#largeText {
+    font-size: 1.25em
+}
+
+#largerText {
+    font-size: 1.75em
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+}
+
+.buttonmorph {
+    color: #fff;
+    text-transform: uppercase;
+    background: #ffffff50;
+    padding: 15px;
+    height: 60px;
+    width: auto;
+    border: 2px solid #2b2e4a !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.buttonmorph:hover {
+    color: #ffcd38 !important;
+    border-radius: 50px;
+    border-color: #ffcd38 !important;
+    transition: all 0.3s ease 0s;
+}
+
+footer {
+    border-top: 1px solid rgba(87, 87, 87, 0.2);
+}
+
+.enhance {
+    color: #ffcd38;
+}
+.py-5 {
+    height: fit-content;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 991.98px) {
+
+    body {
+        text-align: center;
+    }
+
+    .masthead {
+        padding-top: 50px;
+    }
+
+    .buttonmorph {
+        margin-top: 0;
+        color: #b0eacd;
+    }sec
+
+    #largeText {
+        margin-bottom: 0;
+    }
+    .backwrap {
+        height: max-content;
+    }
+    .fullPage {
+        height: 85vh;
+    }
+    
+    #iconShrink {
+        display: none;
+    }
+}
+
+/*FIND PAGE*/
+
+.fullPage {
+    height: 58vh;
+    background-image: url('images/twogals.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.title-wrapper {
+    padding-top: 30px;
+    background-color: #f3f3f3;
+}
+
+article {
+    background: rgba(255, 255, 255, 0.9);
+    height: 250px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+section {
+    margin-top: 100px;
+    height: 100vh;
+}
+p {
+    font-weight: 500;
+}
+
+
+#searchCard {
+    background-color: #ffcd38;
+    color: black;
+    font-weight: 700;
+    border: solid 1px #2b2e4a;
+}
+
+#link {
+    color: black;
+    margin-bottom: 5px;
+}
+
+#noborder {
+    border-bottom: solid 0px white;
+}
+
+/* CONNECT W/ ME CSS */
+.connect-header {
+    font-size: 25px;
+}
+
+.connect-photo {
+    width: 55px;
+    height: 55px;
+}
+
+#images {
+    padding-top: 15px;
+
+    text-align: center;
+}
+
+.searchOption {
+    margin-top: 0;
+}
+#marginB{
+    margin-bottom: 50px;
+}
+#outputInfo {
+    height: 400px;
+    width: 400px;
+}
+
+/* GAME DIV */
+.gameDiv {
+    border: 0.5px solid rgba(175, 88, 88, 0.705);
+    background-color: rgba(207, 224, 230, 0.979);
+    align-items: center;
+}
+
+#gameTime {
+    max-height: 122px;
+    overflow: auto;
+    margin: 0 auto;
+
+}
+
+#sportsBar {
+    border-bottom: 0px solid white;
+    margin: 0 auto;
+    padding: 0 auto 0 20px;
+
+}
+
+/* CONTACT PAGE */
+.backwrap {
+    background-image: linear-gradient(to bottom right, #eef0a2de, #e3e3e3, #f6f5f5 );
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+
+#center {
+    text-align: center;
+}
+section {
+    align-content: center;
+}
+
+
+/* FLIP CARDS */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+
+}
+
+#marginID {
+    margin-top: 30px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #ffcd38;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+/* BEGIN FOOTER */
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    
+    width: 100%;
+    height: 50px;
+}
+
+.text-muted-footer {
+    margin-top: 15px;
+
+    color: #fff;
+}
+
+
+.two-toned-footer-color {
+    height: fit-content;
+    padding-top: 3px;
+
+    background-color: #dbe2ef;
+}
+
+/* END FOOTER */
